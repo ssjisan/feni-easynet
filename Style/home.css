@@ -1,0 +1,35 @@
+.hero-section-bg {
+  background-image: url("/Assets/Images/Home/hero-section.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content {
+  margin-top: 128px;
+  max-width: 546px;
+  width: 100%;
+  text-align: center;
+}
+.hero-content h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
+  color: white;
+}
+.hero-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}
+.button-group {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+}
