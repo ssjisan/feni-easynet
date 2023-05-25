@@ -3,6 +3,8 @@
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center center;
+  background-size: cover;
+  object-fit: cover;
 }
 .hero-section {
   display: flex;
@@ -43,6 +45,7 @@
   padding: 16px 0px;
   gap: 24px;
   border-radius: 8px;
+  width: 261px;
 }
 .matrix-card p {
   margin-top: revert;
@@ -60,3 +63,51 @@
   background: rgba(255, 255, 255, 0.08);
   border-radius: 8px;
 }
+
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+  .hero-content {
+    margin-top: 64px;
+  }
+  .matrix-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 8px;
+    border-radius: 8px;
+    width: 261px;
+    border: 1px solid red;
+  }
+  .matrix-card p {
+    margin:auto;
+    padding: 6px 0px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .button-group {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .matrix-info {
+    margin-top: 40px;
+  }
+  .matrix-card p {
+    margin:auto;
+    padding: 6px 0px;
+  }
+}
+@media screen and (max-width: 479px) {
+}
+/********************  Media Queries End  ********************/
