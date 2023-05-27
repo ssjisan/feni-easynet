@@ -1,6 +1,6 @@
 /* Hero Section Start */
 .hero-section-bg {
-  background-image: url("Assets/Images/Home/hero-section.webp");
+  background-image: url("../Assets/Images/Home/hero-section.webp");
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center center;
