@@ -1,0 +1,91 @@
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #171422;
+  color: white;
+}
+.contact-info {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contact-points {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.contact-points > p {
+  color: #9c9ba1;
+  margin: inherit;
+}
+.call-to-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cta-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  margin: inherit;
+  margin-bottom: 16px;
+}
+.cta-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.cta-option {
+  margin: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9c9ba1;
+}
+.copyright {
+  margin-top: 24px;
+  background: #302d3c;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 10px;
+}
+.right > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9c9ba1;
+  margin: inherit;
+}
+.left {
+  display: flex;
+  gap: 24px;
+}
+/*******************************************************  Media Queries Start  *******************************************************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+  .contact-info {
+    display: flex;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .copyright {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+}
+/*******************************************************  Media Queries End  *******************************************************/

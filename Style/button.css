@@ -38,3 +38,25 @@
   letter-spacing: 0.08em;
   color: #d6111e;
 }
+/*******************************************************  Media Queries Start  *******************************************************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+  .primary-filled {
+    width: 206px;
+    height: 44px;
+  }
+  .secondary-filled {
+    width: 206px;
+    height: 44px;
+  }
+}
+@media screen and (max-width: 570px) {
+}
+@media screen and (max-width: 400px) {
+}
+/*******************************************************  Media Queries End  *******************************************************/
