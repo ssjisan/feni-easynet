@@ -205,69 +205,66 @@
   line-height: 140%;
   color: #9c9ba1;
 }
-.area-tab {
-  margin-bottom: 64px;
-}
-.tab-group {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 24px;
+.tabs {
   max-width: 736px;
   width: 100%;
   overflow-x: auto;
   margin: auto;
+  border-radius: 5px 5px 5px 5px;
 }
-.active-tab {
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 12px 24px;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  color: #d6111e !important;
+  width: max-content;
+}
+ul#tabs-nav li.active {
   padding: 12px 24px;
   gap: 8px;
-  width: 100%;
   height: 44px;
+  color: #fff !important;
   background: #d6111e;
   border-radius: 8px;
   display: flex;
   justify-content: center;
 }
-.active-tab > p {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 140%;
-  letter-spacing: 0.08em;
-  color: #ffffff;
-  width: max-content;
-  text-align: center;
+ul#tabs-nav li.active a {
+  color: #fff !important;
 }
-.tab {
-  padding: 12px 24px;
-  gap: 8px;
-  width: 100%;
-  height: 44px;
-  background: #ffffff;
-  border-radius: 8px;
-}
-.tab > p {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 140%;
-  letter-spacing: 0.08em;
-  color: #d6111e;
-  width: max-content;
-}
-.area-images {
+.tab-content {
   margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-.area {
+.tab-content {
   border-radius: 20px;
   overflow: hidden;
 }
-.area > img {
+.tab-content > img {
   width: 100%;
 }
+
 /******************************************************* Coverage Area End *******************************************************/
 
 /******************************************************* Tv and FTP Start *******************************************************/
@@ -449,8 +446,17 @@
   .tab-group {
     padding: 16px;
   }
-  .area-images {
+  .tabs-content {
     margin-top: 24px;
+  }
+  ul#tabs-nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px;
+  }
+  .tab-content {
+    border-radius: 10px;
+    overflow: hidden;
   }
   .happy-client-button-group {
     margin-top: 16px;
@@ -493,6 +499,9 @@
   .matrix-card p {
     font-size: 14px;
     text-align: center;
+  }
+  .tab-content > img {
+    height: 220px;
   }
 }
 /*******************************************************  Media Queries End  *******************************************************/
