@@ -1,0 +1,317 @@
+/******************************************************* Hero Section Start *******************************************************/
+.hero-section-bg {
+  background: #232224;
+  height: 100vh;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:40px
+}
+.hero-section{
+  gap:24px;
+}
+.hero-section h1 {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 140%;
+  max-width: 1116px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-section p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+  max-width: 916px;
+  width: 100%;
+}
+.button-group {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+.matrix-info {
+  margin-top: 96px;
+}
+.matrix-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 24px;
+  border-radius: 8px;
+  width: 261px;
+}
+.matrix-card p {
+  margin-top: revert;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.matrix-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+/******************************************************* Hero Section Start *******************************************************/
+
+/******************************************************* Package Start  *******************************************************/
+.package-content {
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 40px;
+}
+.package-title {
+  margin-bottom: 16px;
+}
+.package-title > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.16em;
+  color: #d6111e;
+  margin: auto;
+}
+.package-title h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #171422;
+}
+.package-content > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #9c9ba1;
+}
+.package-card-deck {
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.package-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 24px;
+  max-width: 356px;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  box-shadow: 0px 0px 0px rgba(214, 17, 30, 0.08);
+  transition: box-shadow 0.5s ease-in-out;
+  margin-bottom: 24px;
+}
+.package-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.12em;
+  color: #171422;
+}
+.package-card:hover {
+  box-shadow: 0px 0px 16px rgba(214, 17, 30, 0.08);
+  border: 1px solid transparent;
+}
+.package-facility {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.facility {
+  display: flex;
+  gap: 8px;
+}
+.facility > p {
+  margin: initial;
+}
+.price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #171422;
+}
+.duration {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+}
+.package-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s ease;
+}
+.package-card:hover .package-details > p {
+  transition: all 0.5s ease-in-out;
+  color: #d6111e;
+}
+.package-details > p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  color: #d9d9d9;
+  margin: inherit;
+}
+/******************************************************* Package End  *******************************************************/
+
+/*******************************************************  Media Queries Start  *******************************************************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+  .matrix-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .matrix-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .coverage-title h3 {
+    font-size: 24px;
+  }
+  .coverage-content > p {
+    font-size: 14px;
+  }
+  .about-title h3 {
+    font-size: 24px;
+  }
+  .about-content > p {
+    font-size: 14px;
+  }
+  .ftp-content {
+    align-items: center;
+    margin-top: 24px;
+    gap: 24px;
+  }
+  .ftp-title > h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .ftp-title > p {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+  .hero-content {
+    margin-top: 64px;
+  }
+  .matrix-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 8px;
+    border-radius: 8px;
+    width: auto;
+  }
+  .matrix-card p {
+    margin: auto;
+    width: 100%t;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .tab-group {
+    padding: 16px;
+  }
+  .tabs-content {
+    margin-top: 24px;
+  }
+  ul#tabs-nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px;
+  }
+  .tab-content {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .happy-client-button-group {
+    margin-top: 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .happy-clinet-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .ftp-content {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .button-group {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .matrix-info {
+    margin-top: 40px;
+  }
+  .matrix-card p {
+    margin: auto;
+  }
+  .area {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .counting {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .matrix-card p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .tab-content > img {
+    height: 220px;
+  }
+}
+/*******************************************************  Media Queries End  *******************************************************/
