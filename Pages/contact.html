@@ -1,46 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Links Start-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Links End -->
+    <!-- Style Sheet Start -->
+    <link rel="stylesheet" href="../Style/fonts.css" />
+    <link rel="stylesheet" href="../Style/navbar.css" />
+    <link rel="stylesheet" href="../Style/contact.css" />
+    <link rel="stylesheet" href="../Style/home.css" />
+    <link rel="stylesheet" href="../Style/button.css" />
+    <link rel="stylesheet" href="../Style/footer.css" />
+    <!-- Style Sheet End -->
+    <!-- Font Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font End -->
+    <title>Feni Internet</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Bootstrap Links Start-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <!-- Bootstrap Links End -->
-  <!-- Style Sheet Start -->
-  <link rel="stylesheet" href="../Style/fonts.css" />
-  <link rel="stylesheet" href="../Style/navbar.css" />
-  <link rel="stylesheet" href="../Style/contact.css" />
-  <link rel="stylesheet" href="../Style/home.css" />
-  <link rel="stylesheet" href="../Style/button.css" />
-  <link rel="stylesheet" href="../Style/footer.css" />
-  <!-- Style Sheet End -->
-  <!-- Font Start -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <!-- Font End -->
-  <title>Feni Internet</title>
-</head>
-
-<body>
-  <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container-fluid container">
-      <a href="../index.html"><img src="../Assets/fast-link.svg" alt="logo" height="40px" /></a>
-      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid container">
+        <a href="../index.html"
+          ><img src="../Assets/fast-link.svg" alt="logo" height="40px"
+        /></a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#demo"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./packages.html">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">FTP/IP TV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" id="demo">
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close shadow-none"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
         <ul class="navbar-nav ms-auto">
+          <a href="../index.html"
+            ><img src="../Assets/fast-link.svg" alt="logo" height="40px"
+          /></a>
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link " href="../index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./packages.html">Packages</a>
@@ -49,337 +92,436 @@
             <a class="nav-link" href="">FTP/IP TV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="./about.html">About</a>
+            <a class="nav-link" href="./about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="">Contact</a>
+            <a class="nav-link active" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
-  <!-- Navbar End -->
-  <!-- Contact Form Start -->
-  <div class="container">
-    <div class="row form-area">
-      <div class="col-sm-12 col-md-8 col-lg-6">
-        <div class="contact-form">
-          <div class="form-title">
-            <h4>We’d love to hear from you</h4>
-            <p>Send your message, we will get back to you soon. Maximum 24 hours we will take to communicate</p>
-          </div>
-          <div class="form-field">
-            <input type="email" class="input-field form-control" placeholder="Your Name" aria-describedby="emailHelp">
-            <input type="email" class="input-field form-control" placeholder="Email" aria-describedby="emailHelp">
-            <textarea class="form-control" placeholder="Message" rows="4"></textarea>
-          </div>
-          <button class="primary-filled">Submit</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Contact Form End -->
-
-  <!-- Contact Info Start -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-lg-3">
-        <div class="info-card">
-          <div class="icon-container">
-            <img src="../Assets/Icons/map.svg" alt="address" />
-          </div>
-          <div class="info-details">
-            <h6>Address</h6>
-            <p>Fulgazi, Feni Sadar, Feni Fulgazi, Feni Sadar, Feni</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="info-card">
-          <div class="icon-container">
-            <img src="../Assets/Icons/sms.svg" alt="address" />
-          </div>
-          <div class="info-details">
-            <h6>Email</h6>
-            <p>info@easynet.com</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="info-card">
-          <div class="icon-container">
-            <img src="../Assets/Icons/call.svg" alt="address" />
-          </div>
-          <div class="info-details">
-            <h6>Call Center</h6>
-            <p>+8801615 23 65 98 +8801615 23 65 98</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="info-card">
-          <div class="icon-container">
-            <img src="../Assets/Icons/timer.svg" alt="address" />
-          </div>
-          <div class="info-details">
-            <h6>Office Hour</h6>
-            <p>09:00 AM - 09:00 PM</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Contact Info End -->
-
-  <!-- Coverage Area Start -->
-  <div class="container">
-    <div class="coverage-content">
-      <div class="coverage-title">
-        <p>COVERAGE</p>
-        <h3>Best Broadband Internet Provider in Feni</h3>
-      </div>
-      <p>
-        We are trying our best to be the best broadband internet provider in
-        Feni. We are covering all the main attractions of Feni
-      </p>
-    </div>
-    <div class="tabs">
-      <ul id="tabs-nav">
-        <li><a href="#feni-sadar">Feni Sadar</a></li>
-        <li><a href="#dagonbhuiyan">Dagonbhuiyan</a></li>
-        <li><a href="#fulgazi">Fulgazi</a></li>
-        <li><a href="#chagalnaiya">Chagalnaiya</a></li>
-      </ul>
-      <div id="tabs-content">
-        <div id="feni-sadar" class="tab-content">
-          <img src="../Assets/Images/Home/coverage/area01.png" alt="feni sadar" />
-        </div>
-        <div id="dagonbhuiyan" class="tab-content">
-          <img src="../Assets/Images/Home/coverage/area01.png" alt="feni sadar" />
-        </div>
-        <div id="fulgazi" class="tab-content">
-          <img src="../Assets/Images/Home/coverage/area01.png" alt="feni sadar" />
-        </div>
-        <div id="chagalnaiya" class="tab-content">
-          <img src="../Assets/Images/Home/coverage/area01.png" alt="feni sadar" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Coverage Area End -->
-
-  <!-- FaQ Start -->
-  <div class="container" id="faq">
-    <div class="faq-container">
-      <div class="faq-title">Frequently Asked Question</div>
-      <div class="row" style="justify-content: center">
-        <div class="col-md-8">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur orci eu congue malesuada.
-                  Aliquam erat leo, euismod non tellus ac, placerat tincidunt purus. Interdum et malesuada fames ac ante
-                  ipsum primis in faucibus. Duis nibh metus, elementum congue tincidunt vel, elementum quis lectus. Cras
-                  placerat, urna ac lobortis tincidunt, massa magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
-                  molestie fermentum orci, eu fermentum lacus vestibulum et.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur orci eu congue malesuada.
-                  Aliquam erat leo, euismod non tellus ac, placerat tincidunt purus. Interdum et malesuada fames ac ante
-                  ipsum primis in faucibus. Duis nibh metus, elementum congue tincidunt vel, elementum quis lectus. Cras
-                  placerat, urna ac lobortis tincidunt, massa magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
-                  molestie fermentum orci, eu fermentum lacus vestibulum et.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur orci eu congue malesuada.
-                  Aliquam erat leo, euismod non tellus ac, placerat tincidunt purus. Interdum et malesuada fames ac ante
-                  ipsum primis in faucibus. Duis nibh metus, elementum congue tincidunt vel, elementum quis lectus. Cras
-                  placerat, urna ac lobortis tincidunt, massa magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
-                  molestie fermentum orci, eu fermentum lacus vestibulum et.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur orci eu congue malesuada.
-                  Aliquam erat leo, euismod non tellus ac, placerat tincidunt purus. Interdum et malesuada fames ac ante
-                  ipsum primis in faucibus. Duis nibh metus, elementum congue tincidunt vel, elementum quis lectus. Cras
-                  placerat, urna ac lobortis tincidunt, massa magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
-                  molestie fermentum orci, eu fermentum lacus vestibulum et.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur orci eu congue malesuada.
-                  Aliquam erat leo, euismod non tellus ac, placerat tincidunt purus. Interdum et malesuada fames ac ante
-                  ipsum primis in faucibus. Duis nibh metus, elementum congue tincidunt vel, elementum quis lectus. Cras
-                  placerat, urna ac lobortis tincidunt, massa magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
-                  molestie fermentum orci, eu fermentum lacus vestibulum et.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- FaQ End -->
-  <!-- Footer Start -->
-  <div class="footer-container">
+    <!-- Navbar End -->
+    <!-- Contact Form Start -->
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="../Assets/Icons/footer-mono.svg" alt="logo" />
-          <div class="contact-info">
-            <div class="contact-points">
-              <img src="../Assets/Icons/marker.svg" />
+      <div class="row form-area">
+        <div class="col-sm-12 col-md-8 col-lg-6">
+          <div class="contact-form">
+            <div class="form-title">
+              <h4>We’d love to hear from you</h4>
               <p>
-                Amber IT Ltd. Navana Tower (7th Floor)45 Gulshan South C/A,
-                Circle-1
+                Send your message, we will get back to you soon. Maximum 24
+                hours we will take to communicate
               </p>
             </div>
-            <div class="contact-points">
-              <img src="../Assets/Icons/mail.svg" />
-              <p>info@amberit.com.bd1</p>
+            <div class="form-field">
+              <input
+                type="email"
+                class="input-field form-control"
+                placeholder="Your Name"
+                aria-describedby="emailHelp"
+              />
+              <input
+                type="email"
+                class="input-field form-control"
+                placeholder="Email"
+                aria-describedby="emailHelp"
+              />
+              <textarea
+                class="form-control"
+                placeholder="Message"
+                rows="4"
+              ></textarea>
             </div>
-            <div class="contact-points">
-              <img src="../Assets/Icons/phonne.svg" />
-              <p>(8802) 222264415</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="call-to-actions">
-            <div class="company">
-              <p class="cta-title">Company</p>
-              <div class="cta-menu">
-                <a href="./about.html">
-                  <p class="cta-option">About</p>
-                </a>
-                <a href="./packages.html">
-                  <p class="cta-option">Packages</p>
-                </a>
-                <a href="./contact.html">
-                  <p class="cta-option">Contact Us</p>
-                </a>
-              </div>
-            </div>
-            <div class="support">
-              <p class="cta-title">Support</p>
-              <div class="cta-menu">
-                <a href="./packages.html#how-to-pay">
-                  <p class="cta-option">How to Pay?</p>
-                </a>
-                <a href="./contact.html#faq">
-                  <p class="cta-option">FAQ</p>
-                </a>
-              </div>
-            </div>
-            <div class="legal">
-              <p class="cta-title">Legal & Terms</p>
-              <div class="cta-menu">
-                <a href="./terms.html">
-                  <p class="cta-option">Terms & Condition</p>
-                </a>
-                <a href="./terms.html">
-                  <p class="cta-option">Privacy Policies</p>
-                </a>
-                <a href="./terms.html">
-                  <p class="cta-option">Return & Refund</p>
-                </a>
-              </div>
-            </div>
-            <div class="support">
-              <p class="cta-title">Other Links</p>
-              <div class="cta-menu">
-                <p class="cta-option">FTP</p>
-                <p class="cta-option">Live TV</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <div class="right">
-          <p>Fastlink © 2023 , All rights Reserved</p>
-        </div>
-        <div class="left">
-          <div class="social">
-            <img src="../Assets/Icons/facebook.svg" alt="facebook" />
-          </div>
-          <div class="social">
-            <img src="../Assets/Icons/insta.svg" alt="instagram" />
-          </div>
-          <div class="social">
-            <img src="../Assets/Icons/lnkdn.svg" alt="linkedin" />
+            <button class="primary-filled">Submit</button>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Footer End -->
-  <!-- Boostrap CDN Start -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-    crossorigin="anonymous"></script>
-  <!-- Boostrap CDN End -->
-  <!-- Jquery CDN Start -->
-  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-    crossorigin="anonymous"></script>
-  <!-- Jquery CDN End -->
-  <!-- External Plugins Start -->
-  <script src="../Plugins/coverage-area.js"></script>
-  <!-- External Plugins End -->
-</body>
+    <!-- Contact Form End -->
 
+    <!-- Contact Info Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="info-card">
+            <div class="icon-container">
+              <img src="../Assets/Icons/map.svg" alt="address" />
+            </div>
+            <div class="info-details">
+              <h6>Address</h6>
+              <p>Fulgazi, Feni Sadar, Feni Fulgazi, Feni Sadar, Feni</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="info-card">
+            <div class="icon-container">
+              <img src="../Assets/Icons/sms.svg" alt="address" />
+            </div>
+            <div class="info-details">
+              <h6>Email</h6>
+              <p>info@easynet.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="info-card">
+            <div class="icon-container">
+              <img src="../Assets/Icons/call.svg" alt="address" />
+            </div>
+            <div class="info-details">
+              <h6>Call Center</h6>
+              <p>+8801615 23 65 98 +8801615 23 65 98</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="info-card">
+            <div class="icon-container">
+              <img src="../Assets/Icons/timer.svg" alt="address" />
+            </div>
+            <div class="info-details">
+              <h6>Office Hour</h6>
+              <p>09:00 AM - 09:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Info End -->
+
+    <!-- Coverage Area Start -->
+    <div class="container">
+      <div class="coverage-content">
+        <div class="coverage-title">
+          <p>COVERAGE</p>
+          <h3>Best Broadband Internet Provider in Feni</h3>
+        </div>
+        <p>
+          We are trying our best to be the best broadband internet provider in
+          Feni. We are covering all the main attractions of Feni
+        </p>
+      </div>
+      <div class="tabs">
+        <ul id="tabs-nav">
+          <li><a href="#feni-sadar">Feni Sadar</a></li>
+          <li><a href="#dagonbhuiyan">Dagonbhuiyan</a></li>
+          <li><a href="#fulgazi">Fulgazi</a></li>
+          <li><a href="#chagalnaiya">Chagalnaiya</a></li>
+        </ul>
+        <div id="tabs-content">
+          <div id="feni-sadar" class="tab-content">
+            <img
+              src="../Assets/Images/Home/coverage/area01.png"
+              alt="feni sadar"
+            />
+          </div>
+          <div id="dagonbhuiyan" class="tab-content">
+            <img
+              src="../Assets/Images/Home/coverage/area01.png"
+              alt="feni sadar"
+            />
+          </div>
+          <div id="fulgazi" class="tab-content">
+            <img
+              src="../Assets/Images/Home/coverage/area01.png"
+              alt="feni sadar"
+            />
+          </div>
+          <div id="chagalnaiya" class="tab-content">
+            <img
+              src="../Assets/Images/Home/coverage/area01.png"
+              alt="feni sadar"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Coverage Area End -->
+
+    <!-- FaQ Start -->
+    <div class="container" id="faq">
+      <div class="faq-container">
+        <div class="faq-title">Frequently Asked Question</div>
+        <div class="row" style="justify-content: center">
+          <div class="col-md-8">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    consectetur orci eu congue malesuada. Aliquam erat leo,
+                    euismod non tellus ac, placerat tincidunt purus. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Duis nibh
+                    metus, elementum congue tincidunt vel, elementum quis
+                    lectus. Cras placerat, urna ac lobortis tincidunt, massa
+                    magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
+                    molestie fermentum orci, eu fermentum lacus vestibulum et.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    consectetur orci eu congue malesuada. Aliquam erat leo,
+                    euismod non tellus ac, placerat tincidunt purus. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Duis nibh
+                    metus, elementum congue tincidunt vel, elementum quis
+                    lectus. Cras placerat, urna ac lobortis tincidunt, massa
+                    magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
+                    molestie fermentum orci, eu fermentum lacus vestibulum et.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    consectetur orci eu congue malesuada. Aliquam erat leo,
+                    euismod non tellus ac, placerat tincidunt purus. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Duis nibh
+                    metus, elementum congue tincidunt vel, elementum quis
+                    lectus. Cras placerat, urna ac lobortis tincidunt, massa
+                    magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
+                    molestie fermentum orci, eu fermentum lacus vestibulum et.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    consectetur orci eu congue malesuada. Aliquam erat leo,
+                    euismod non tellus ac, placerat tincidunt purus. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Duis nibh
+                    metus, elementum congue tincidunt vel, elementum quis
+                    lectus. Cras placerat, urna ac lobortis tincidunt, massa
+                    magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
+                    molestie fermentum orci, eu fermentum lacus vestibulum et.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    consectetur orci eu congue malesuada. Aliquam erat leo,
+                    euismod non tellus ac, placerat tincidunt purus. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Duis nibh
+                    metus, elementum congue tincidunt vel, elementum quis
+                    lectus. Cras placerat, urna ac lobortis tincidunt, massa
+                    magna bibendum ipsum, a faucibus neque nibh eu neque. Nam
+                    molestie fermentum orci, eu fermentum lacus vestibulum et.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FaQ End -->
+    <!-- Footer Start -->
+    <div class="footer-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="../Assets/Icons/footer-mono.svg" alt="logo" />
+            <div class="contact-info">
+              <div class="contact-points">
+                <img src="../Assets/Icons/marker.svg" />
+                <p>
+                  Amber IT Ltd. Navana Tower (7th Floor)45 Gulshan South C/A,
+                  Circle-1
+                </p>
+              </div>
+              <div class="contact-points">
+                <img src="../Assets/Icons/mail.svg" />
+                <p>info@amberit.com.bd1</p>
+              </div>
+              <div class="contact-points">
+                <img src="../Assets/Icons/phonne.svg" />
+                <p>(8802) 222264415</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="call-to-actions">
+              <div class="company">
+                <p class="cta-title">Company</p>
+                <div class="cta-menu">
+                  <a href="./about.html">
+                    <p class="cta-option">About</p>
+                  </a>
+                  <a href="./packages.html">
+                    <p class="cta-option">Packages</p>
+                  </a>
+                  <a href="./contact.html">
+                    <p class="cta-option">Contact Us</p>
+                  </a>
+                </div>
+              </div>
+              <div class="support">
+                <p class="cta-title">Support</p>
+                <div class="cta-menu">
+                  <a href="./packages.html#how-to-pay">
+                    <p class="cta-option">How to Pay?</p>
+                  </a>
+                  <a href="./contact.html#faq">
+                    <p class="cta-option">FAQ</p>
+                  </a>
+                </div>
+              </div>
+              <div class="legal">
+                <p class="cta-title">Legal & Terms</p>
+                <div class="cta-menu">
+                  <a href="./terms.html">
+                    <p class="cta-option">Terms & Condition</p>
+                  </a>
+                  <a href="./terms.html">
+                    <p class="cta-option">Privacy Policies</p>
+                  </a>
+                  <a href="./terms.html">
+                    <p class="cta-option">Return & Refund</p>
+                  </a>
+                </div>
+              </div>
+              <div class="support">
+                <p class="cta-title">Other Links</p>
+                <div class="cta-menu">
+                  <p class="cta-option">FTP</p>
+                  <p class="cta-option">Live TV</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="right">
+            <p>Fastlink © 2023 , All rights Reserved</p>
+          </div>
+          <div class="left">
+            <div class="social">
+              <img src="../Assets/Icons/facebook.svg" alt="facebook" />
+            </div>
+            <div class="social">
+              <img src="../Assets/Icons/insta.svg" alt="instagram" />
+            </div>
+            <div class="social">
+              <img src="../Assets/Icons/lnkdn.svg" alt="linkedin" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Boostrap CDN Start -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Boostrap CDN End -->
+    <!-- Jquery CDN Start -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery CDN End -->
+    <!-- External Plugins Start -->
+    <script src="../Plugins/coverage-area.js"></script>
+    <!-- External Plugins End -->
+  </body>
 </html>
