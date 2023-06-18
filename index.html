@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <!-- Bootstrap Links End -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Style Sheet Start -->
     <link rel="stylesheet" href="Style/fonts.css" />
     <link rel="stylesheet" href="Style/navbar.css" />
@@ -103,7 +104,7 @@
     <!-- Hero Section Start -->
     <div class="hero-section-bg">
       <div class="container hero-section">
-        <div class="hero-content">
+        <div class="hero-content  hero">
           <h1>Fast, Reliable, Affordable Internet Service</h1>
           <p>
             Feni Easy Net provides fast, reliable, and affordable internet
@@ -112,7 +113,7 @@
             gaming. Typography
           </p>
         </div>
-        <div class="button-group">
+        <div class="button-group hero">
           <button class="primary-filled">Contact Us</button>
           <button class="secondary-filled">
             +88 01914 474 661
@@ -122,7 +123,7 @@
         <div class="matrix-info">
           <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-              <div class="matrix-card">
+              <div class="matrix-card hero">
                 <div class="matrix-icon">
                   <img src="Assets/Icons/map.svg" alt="map" />
                 </div>
@@ -130,7 +131,7 @@
               </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-              <div class="matrix-card">
+              <div class="matrix-card hero">
                 <div class="matrix-icon">
                   <img src="Assets/Icons/guarante.svg" alt="map" />
                 </div>
@@ -138,7 +139,7 @@
               </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-              <div class="matrix-card">
+              <div class="matrix-card hero">
                 <div class="matrix-icon">
                   <img src="Assets/Icons/trust.svg" alt="map" />
                 </div>
@@ -146,7 +147,7 @@
               </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
-              <div class="matrix-card">
+              <div class="matrix-card hero">
                 <div class="matrix-icon">
                   <img src="Assets/Icons/map.svg" alt="map" />
                 </div>
@@ -577,6 +578,16 @@
     <!-- Jquery CDN End -->
     <!-- External Plugins Start -->
     <script src="Plugins/coverage-area.js"></script>
+    <script type="text/javascript">
+      ScrollReveal().reveal(".hero", {
+          delay: 150,
+          easing: "ease-in",
+          interval: 150,
+          origin: "top",
+          distance: "90px",
+          opacity: 0.0,
+      });
+  </script>
     <!-- External Plugins End -->
   </body>
 </html>
