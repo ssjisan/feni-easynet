@@ -64,6 +64,9 @@
   display: flex;
   gap: 24px;
 }
+.cta-menu a{
+  text-decoration: none;
+}
 /*******************************************************  Media Queries Start  *******************************************************/
 @media screen and (max-width: 1400px) {
 }

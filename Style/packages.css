@@ -267,9 +267,6 @@
   .hero-content h1 {
     font-size: 32px;
   }
-  .hero-content {
-    margin-top: 64px;
-  }
   .matrix-card {
     display: flex;
     flex-direction: column;
