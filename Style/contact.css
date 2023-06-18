@@ -44,3 +44,35 @@
 .input-field{
   height: 48px;
 }
+.faq-container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+.faq-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #23262f;
+  margin-bottom: 64px;
+}
+.accordion-item {
+  padding-bottom: 16px;
+  border: none;
+}
+.accordion-button {
+    background-color: transparent;
+    font-weight: 600;
+    color: #23262f;
+  }
+  
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  font-weight: 700;
+  color: #171422;
+}
+.accordion-body{
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(23, 20, 34, 0.48);
+}
