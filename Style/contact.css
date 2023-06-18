@@ -153,6 +153,46 @@ ul#tabs-nav li.active a {
   width: 100%;
 }
 
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 10px;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #E2E5F1;
+  border-radius: 10px;
+}
+.info-card{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 24px;
+gap: 16px;
+width: 261px;
+height: 208px;
+background: #FFFFFF;
+border-radius: 8px;
+}
+.info-details h6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #171422;
+}
+
+.info-details p {
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #9397AD;
+
+}
+
 /******************************************************* Coverage Area End *******************************************************/
 
 .faq-container {
