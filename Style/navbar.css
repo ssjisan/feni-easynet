@@ -52,7 +52,7 @@
 .offcanvas-header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 
@@ -61,17 +61,20 @@
   .nav-item {
     font-weight: 400;
     font-size: 24px;
+    margin-left: 0px;
+    display: flex;
     line-height: 140%;
     color: #031430;
   }
-  .nav-item>.active {
-    color: #d6111e;
+  .active{
+    font-weight: 700;
   }
   .navbar-nav{
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: center;
+    margin-top: 64px;
   }
 }
 @media screen and (max-width: 400px) {
