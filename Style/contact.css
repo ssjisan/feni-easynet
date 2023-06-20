@@ -231,3 +231,9 @@ color: #9397AD;
   line-height: 150%;
   color: rgba(23, 20, 34, 0.48);
 }
+
+@media screen and (max-width: 576px) {
+  .info-card{
+    margin: auto;
+  }
+}
