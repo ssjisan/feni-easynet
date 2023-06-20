@@ -92,6 +92,170 @@
   border-radius: 8px;
 }
 /* Why Us End */
+/* Founder Start */
+.founder-title p {
+  margin: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  color: #d6111e;
+}
+.founder-title h3 {
+  margin: auto;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 59px;
+  text-align: center;
+  color: #0d0a25;
+}
+.founder-image {
+  overflow: hidden;
+  border-radius: 8px;
+}
+.founder-image img {
+  width: 100%;
+  object-fit: fill;
+}
+.founder-message {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.founder-message h4 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  color: #212123;
+}
+.founder-message p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #9c9ba1;
+}
+/* Founder End */
+/* Mission Vision Start */
+
+.mission-vision-title > p {
+  margin: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.16em;
+  color: #d6111e !important;
+}
+.mission-vision-title h4 {
+  margin: auto;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #171422;
+}
+.mission-vision-image {
+  overflow: hidden;
+  border-radius: 12px;
+  height: 321px;
+}
+.mission-vision-content {
+  margin-top: 24px;
+}
+.mission-vision-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.mission-vision-content p {
+  font-weight: 400;
+  margin: auto;
+  font-size: 16px;
+  line-height: 140%;
+  color: #9c9ba1;
+}
+/* Mission Vision End */
+
+/* Values Start */
+.value-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 24px;
+}
+.value-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+.satisfaction {
+  background: rgba(197, 62, 206, 0.08);
+}
+.reliability {
+  background: rgba(39, 119, 214, 0.08);
+}
+.security {
+  background: rgba(233, 30, 52, 0.08);
+}
+.scalability {
+  background: rgba(46, 196, 48, 0.08);
+}
+.responsiveness {
+  background: rgba(255, 183, 3, 0.08);
+}
+.pricing {
+  background: rgba(25, 167, 90, 0.08);
+}
+.transparency {
+  background: rgba(0, 25, 255, 0.08);
+}
+.excellence {
+  background: rgba(214, 17, 30, 0.08);
+}
+.value-card p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #243757;
+}
+.values-title{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.values-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.16em;
+  color: #d6111e;
+  text-align: center;
+}
+.values-title h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  color: #171422;
+  max-width: 546px;
+  width: 100%;
+}
+/* Values End */
 
 /*******************************************************  Media Queries Start  *******************************************************/
 @media screen and (max-width: 1400px) {
@@ -104,6 +268,12 @@
     align-items: center;
     gap: 16px;
   }
+  .mission-vision-image {
+    height: 100%;
+  }
+  .mission-vision-image img {
+    height: inherit;
+  }
 }
 @media screen and (max-width: 991px) {
   .matrix-card {
@@ -112,6 +282,10 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+  }
+  .value-card-deck{
+    display: flex;
+    justify-content:center
   }
 }
 @media screen and (max-width: 767px) {
@@ -139,6 +313,9 @@
   }
   .matrix-card p {
     margin: auto;
+  }
+  .value-card p {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 400px) {

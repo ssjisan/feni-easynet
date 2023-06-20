@@ -1,6 +1,12 @@
 .mt64 {
-  margin-top: 64px;
+  padding-top: 64px;
 }
 .mb64 {
-  margin-bottom: 64px;
+  padding-bottom: 64px;
+}
+.mt40 {
+  padding-top: 40px;
+}
+.mb40 {
+  padding-bottom: 40px;
 }
