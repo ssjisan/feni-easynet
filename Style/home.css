@@ -205,9 +205,21 @@
   line-height: 140%;
   color: #9c9ba1;
 }
-.tabs {
+#tabs-content {
+  display: flex;
+  justify-content: center;
+}
+.tab-content {
   max-width: 736px;
   width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.tab-content img {
+  width: 100%;
+  object-fit: fill;
+}
+.tabs {
   overflow-x: auto;
   margin: auto;
   border-radius: 5px 5px 5px 5px;
@@ -218,6 +230,7 @@ ul#tabs-nav {
   padding: 5px;
   overflow: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
@@ -257,14 +270,6 @@ ul#tabs-nav li.active a {
 .tab-content {
   margin-top: 40px;
 }
-.tab-content {
-  border-radius: 20px;
-  overflow: hidden;
-}
-.tab-content > img {
-  width: 100%;
-}
-
 /******************************************************* Coverage Area End *******************************************************/
 
 /******************************************************* Tv and FTP Start *******************************************************/
@@ -472,6 +477,11 @@ ul#tabs-nav li.active a {
   .ftp-content {
     gap: 16px;
   }
+  ul#tabs-nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
 }
 @media screen and (max-width: 570px) {
   .button-group {
@@ -493,6 +503,13 @@ ul#tabs-nav li.active a {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+  }
+  ul#tabs-nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 16px;
+    gap: 24px;
   }
 }
 @media screen and (max-width: 400px) {
