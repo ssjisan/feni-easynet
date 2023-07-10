@@ -1,13 +1,13 @@
 .nav-item {
   margin-left: 24px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 140%;
   color: #031430;
 }
 
 .active {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .navbar-toggler {

@@ -1,3 +1,6 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 /******************************************************* Hero Section Start *******************************************************/
 .hero-section-bg {
   background-image: url("../Assets/Images/Home/hero-section.webp");
@@ -14,12 +17,12 @@
 }
 .hero-content {
   margin-top: 128px;
-  max-width: 546px;
+  max-width: 648px;
   width: 100%;
   text-align: center;
 }
 .hero-content h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 48px;
   line-height: 140%;
   color: white;
