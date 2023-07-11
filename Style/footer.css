@@ -44,6 +44,9 @@
   line-height: 20px;
   color: #9c9ba1;
 }
+.cta-option:hover{
+  color: #EDEDED;
+}
 .copyright {
   margin-top: 24px;
   background: #302d3c;
@@ -60,6 +63,7 @@
   color: #9c9ba1;
   margin: inherit;
 }
+
 .left {
   display: flex;
   gap: 24px;
