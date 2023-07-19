@@ -24,7 +24,7 @@ body{
 }
 .hero-section h1 {
   font-weight: 600;
-  font-size: 80px;
+  font-size: 72px;
   line-height: 140%;
   max-width: 1116px;
   width: 100%;
@@ -135,6 +135,17 @@ body{
   line-height: 140%;
   letter-spacing: 0.12em;
   color: #171422;
+}
+.gauge-meter {
+  position: relative;
+}
+.gauge-meter p {
+  margin: auto;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0px;
+  left: 68px;
 }
 .package-card:hover {
   box-shadow: 0px 0px 16px rgba(214, 17, 30, 0.08);
