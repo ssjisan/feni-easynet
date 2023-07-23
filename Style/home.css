@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
 /******************************************************* Hero Section Start *******************************************************/
 .hero-section-bg {
   background-image: url("../Assets/Images/Home/hero-section.webp");
@@ -10,37 +11,44 @@ body {
   background-size: cover;
   object-fit: cover;
 }
+
 .hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .hero-content {
   margin-top: 128px;
   max-width: 648px;
   width: 100%;
   text-align: center;
 }
+
 .hero-content h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 140%;
   color: white;
 }
+
 .hero-content p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #cecece;
 }
+
 .button-group {
   margin-top: 40px;
   display: flex;
   gap: 24px;
 }
+
 .matrix-info {
   margin-top: 96px;
 }
+
 .matrix-card {
   display: flex;
   flex-direction: row;
@@ -51,6 +59,7 @@ body {
   border-radius: 8px;
   width: 261px;
 }
+
 .matrix-card p {
   margin-top: revert;
   color: #fff;
@@ -58,6 +67,7 @@ body {
   font-size: 16px;
   line-height: 140%;
 }
+
 .matrix-icon {
   width: 48px;
   height: 48px;
@@ -67,6 +77,7 @@ body {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 8px;
 }
+
 /******************************************************* Hero Section Start *******************************************************/
 
 /******************************************************* Package Start  *******************************************************/
@@ -75,10 +86,12 @@ body {
   margin-top: 64px;
   margin-bottom: 40px;
 }
+
 .package-title {
   margin-bottom: 16px;
 }
-.package-title > p {
+
+.package-title>p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
@@ -86,27 +99,32 @@ body {
   color: #d6111e;
   margin: auto;
 }
+
 .package-title h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 140%;
   color: #171422;
 }
-.package-content > p {
+
+.package-content>p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #9c9ba1;
 }
+
 .package-card-deck {
   margin-bottom: 64px;
   display: flex;
   justify-content: center;
 }
+
 .card-container {
   display: flex;
   justify-content: center;
 }
+
 .package-card {
   display: flex;
   flex-direction: column;
@@ -122,9 +140,11 @@ body {
   transition: box-shadow 0.5s ease-in-out;
   margin-bottom: 24px;
 }
+
 .gauge-meter {
   position: relative;
 }
+
 .gauge-meter p {
   margin: auto;
   font-size: 24px;
@@ -133,6 +153,7 @@ body {
   bottom: 0px;
   left: 68px;
 }
+
 .package-name {
   font-weight: 700;
   font-size: 16px;
@@ -140,34 +161,41 @@ body {
   letter-spacing: 0.12em;
   color: #171422;
 }
+
 .package-card:hover {
   box-shadow: 0px 0px 16px rgba(214, 17, 30, 0.08);
   border: 1px solid transparent;
 }
+
 .package-facility {
   display: flex;
   flex-direction: column;
   gap: 16px;
   width: 100%;
 }
+
 .facility {
   display: flex;
   gap: 8px;
 }
-.facility > p {
+
+.facility>p {
   margin: initial;
 }
+
 .price {
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
   color: #171422;
 }
+
 .duration {
   font-weight: 300;
   font-size: 14px;
   line-height: 140%;
 }
+
 .package-details {
   width: 100%;
   display: flex;
@@ -176,11 +204,13 @@ body {
   gap: 8px;
   transition: all 0.5s ease;
 }
-.package-card:hover .package-details > p {
+
+.package-card:hover .package-details>p {
   transition: all 0.5s ease-in-out;
   color: #d6111e;
 }
-.package-details > p {
+
+.package-details>p {
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
@@ -188,6 +218,7 @@ body {
   color: #d9d9d9;
   margin: inherit;
 }
+
 /******************************************************* Package End  *******************************************************/
 
 /******************************************************* Coverage Area Start *******************************************************/
@@ -196,16 +227,19 @@ body {
   margin-top: 64px;
   margin-bottom: 40px;
 }
+
 .coverage-title {
   margin-bottom: 16px;
 }
-.coverage-title > h3 {
+
+.coverage-title>h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 140%;
   color: #171422;
 }
-.coverage-title > p {
+
+.coverage-title>p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
@@ -213,31 +247,38 @@ body {
   color: #d6111e;
   margin: auto;
 }
-.coverage-content > p {
+
+.coverage-content>p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #9c9ba1;
 }
+
 #tabs-content {
   display: flex;
   justify-content: center;
 }
+
 .tab-content {
   max-width: 736px;
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
 }
+
 .tab-content img {
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  height: 475px;
 }
+
 .tabs {
   overflow-x: auto;
   margin: auto;
   border-radius: 5px 5px 5px 5px;
 }
+
 ul#tabs-nav {
   list-style: none;
   margin: 0;
@@ -248,6 +289,7 @@ ul#tabs-nav {
   justify-content: center;
   gap: 40px;
 }
+
 ul#tabs-nav li {
   float: left;
   font-weight: bold;
@@ -259,6 +301,7 @@ ul#tabs-nav li {
   display: flex;
   justify-content: center;
 }
+
 #tabs-nav li a {
   text-decoration: none;
   font-weight: 500;
@@ -268,6 +311,7 @@ ul#tabs-nav li {
   color: #d6111e !important;
   width: max-content;
 }
+
 ul#tabs-nav li.active {
   padding: 12px 24px;
   gap: 8px;
@@ -278,40 +322,48 @@ ul#tabs-nav li.active {
   display: flex;
   justify-content: center;
 }
+
 ul#tabs-nav li.active a {
   color: #fff !important;
 }
+
 .tab-content {
   margin-top: 40px;
 }
+
 /******************************************************* Coverage Area End *******************************************************/
 
 /******************************************************* Tv and FTP Start *******************************************************/
 .ftp-image {
   width: 100%;
 }
+
 .ftp-section {
   margin-top: 64px;
   margin-bottom: 64px;
 }
+
 .ftp-content {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-.ftp-title > h3 {
+
+.ftp-title>h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 150%;
   color: #23262f;
 }
-.ftp-title > p {
+
+.ftp-title>p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #9c9ba1;
 }
+
 .counting {
   display: flex;
   flex-direction: row;
@@ -319,18 +371,21 @@ ul#tabs-nav li.active a {
   padding: 0px;
   gap: 16px;
 }
-.counting > p {
+
+.counting>p {
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
   color: #d6111e;
 }
+
 .span {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #243757;
 }
+
 /******************************************************* Tv and FTP End *******************************************************/
 
 /*******************************************************  Happy Clinet Start *******************************************************/
@@ -341,6 +396,7 @@ ul#tabs-nav li.active a {
   background-size: cover;
   object-fit: cover;
 }
+
 .happy-clinet-content {
   display: flex;
   flex-direction: column;
@@ -350,15 +406,18 @@ ul#tabs-nav li.active a {
   padding: 64px;
   text-align: center;
 }
-.happy-clinet-content > h3 {
+
+.happy-clinet-content>h3 {
   color: white;
   max-width: 700px;
 }
+
 .happy-client-button-group {
   margin-top: 40px;
   display: flex;
   gap: 24px;
 }
+
 /*******************************************************  Happy Client End ******************************************************* /
 
 /*******************************************************  About Us Start  *******************************************************/
@@ -367,16 +426,19 @@ ul#tabs-nav li.active a {
   margin-top: 64px;
   margin-bottom: 40px;
 }
+
 .about-title {
   margin-bottom: 16px;
 }
+
 .about-title h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 140%;
   color: #171422;
 }
-.about-title > p {
+
+.about-title>p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
@@ -384,17 +446,19 @@ ul#tabs-nav li.active a {
   color: #d6111e;
   margin: auto;
 }
-.about-content > p {
+
+.about-content>p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #9c9ba1;
 }
+
 /*******************************************************  About Us End  *******************************************************/
 
 /*******************************************************  Media Queries Start  *******************************************************/
-@media screen and (max-width: 1400px) {
-}
+@media screen and (max-width: 1400px) {}
+
 @media screen and (max-width: 1200px) {
   .matrix-card {
     display: flex;
@@ -404,6 +468,7 @@ ul#tabs-nav li.active a {
     gap: 16px;
   }
 }
+
 @media screen and (max-width: 991px) {
   .matrix-card {
     display: flex;
@@ -412,39 +477,49 @@ ul#tabs-nav li.active a {
     align-items: center;
     gap: 16px;
   }
+
   .coverage-title h3 {
     font-size: 24px;
   }
-  .coverage-content > p {
+
+  .coverage-content>p {
     font-size: 14px;
   }
+
   .about-title h3 {
     font-size: 24px;
   }
-  .about-content > p {
+
+  .about-content>p {
     font-size: 14px;
   }
+
   .ftp-content {
     align-items: center;
     margin-top: 24px;
     gap: 24px;
   }
-  .ftp-title > h3 {
+
+  .ftp-title>h3 {
     text-align: center;
     font-size: 24px;
   }
-  .ftp-title > p {
+
+  .ftp-title>p {
     text-align: center;
     font-size: 14px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .hero-content h1 {
     font-size: 32px;
   }
+
   .hero-content {
     margin-top: 64px;
   }
+
   .matrix-card {
     display: flex;
     flex-direction: column;
@@ -455,69 +530,89 @@ ul#tabs-nav li.active a {
     border-radius: 8px;
     width: auto;
   }
+
   .matrix-card p {
     margin: auto;
     width: 100%t;
   }
+
   .col-xs-6 {
     width: 50%;
   }
+
   .tab-group {
     padding: 16px;
   }
+
   .tabs-content {
     margin-top: 24px;
   }
+
   ul#tabs-nav {
     display: flex;
     justify-content: flex-start;
     padding: 16px;
   }
+
   .tab-content {
     border-radius: 10px;
     overflow: hidden;
+  }
+
+  .tab-content>img {
+    height: 220px;
+    object-fit: cover;
   }
   .happy-client-button-group {
     margin-top: 16px;
     flex-direction: column;
     gap: 16px;
   }
+
   .happy-clinet-content {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .ftp-content {
     gap: 16px;
   }
+
   ul#tabs-nav {
     display: flex;
     justify-content: center;
     gap: 24px;
   }
 }
+
 @media screen and (max-width: 570px) {
   .button-group {
     margin-top: 24px;
     display: flex;
     flex-direction: column;
   }
+
   .matrix-info {
     margin-top: 40px;
   }
+
   .matrix-card p {
     margin: auto;
   }
+
   .area {
     border-radius: 10px;
     overflow: hidden;
   }
+
   .counting {
     flex-direction: column;
     align-items: center;
     gap: 8px;
   }
+
   ul#tabs-nav {
     display: flex;
     justify-content: flex-start;
@@ -526,13 +621,14 @@ ul#tabs-nav li.active a {
     gap: 24px;
   }
 }
+
 @media screen and (max-width: 400px) {
   .matrix-card p {
     font-size: 14px;
     text-align: center;
   }
-  .tab-content > img {
-    height: 220px;
-  }
+
+
 }
+
 /*******************************************************  Media Queries End  *******************************************************/

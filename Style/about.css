@@ -146,7 +146,9 @@ body{
 }
 /* Founder End */
 /* Mission Vision Start */
-
+.mission-vision-title{
+  margin-bottom: 24px;
+}
 .mission-vision-title > p {
   margin: auto;
   font-weight: 400;

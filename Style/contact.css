@@ -96,7 +96,8 @@ body{
 }
 .tab-content img {
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  height: 475px;
 }
 .tabs {
   overflow-x: auto;
@@ -293,6 +294,9 @@ iframe {
     border-radius: 10px;
     overflow: hidden;
   }
+  .tab-content  img {
+    height: 220px;
+  }
   ul#tabs-nav {
     display: flex;
     justify-content: center;
@@ -336,9 +340,6 @@ iframe {
   .matrix-card p {
     font-size: 14px;
     text-align: center;
-  }
-  .tab-content  img {
-    height: 220px;
   }
   .info-card{
     padding: 0px;;
