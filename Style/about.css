@@ -1,6 +1,7 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
 }
+
 /* Hero-Section Start */
 .hero-title p {
   font-weight: 400;
@@ -11,6 +12,7 @@ body{
   color: #d6111e;
   margin: auto;
 }
+
 .hero-title h3 {
   font-weight: 700;
   font-size: 32px;
@@ -19,20 +21,25 @@ body{
   color: #171422;
   margin: auto;
 }
+
 .hero-content {
   margin-top: 40px;
 }
+
 .hero-image {
   overflow: hidden;
   border-radius: 16px;
 }
+
 .hero-image img {
   width: 100%;
   height: 300px;
 }
+
 .hero-details {
   margin-top: 40px;
 }
+
 .hero-details p {
   font-weight: 400;
   font-size: 16px;
@@ -40,6 +47,7 @@ body{
   text-align: right;
   color: #9c9ba1;
 }
+
 /* Hero-section End */
 
 /* Why Us Start */
@@ -49,6 +57,7 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 .why-us-title h3 {
   font-weight: 700;
   font-size: 32px;
@@ -56,6 +65,7 @@ body{
   text-align: center;
   color: #171422;
 }
+
 .why-us-title p {
   font-weight: 400;
   font-size: 16px;
@@ -65,9 +75,11 @@ body{
   text-align: center;
   color: #9c9ba1;
 }
+
 .matrix-info {
   margin-top: 40px;
 }
+
 .matrix-card {
   display: flex;
   flex-direction: row;
@@ -78,6 +90,7 @@ body{
   border-radius: 8px;
   width: 261px;
 }
+
 .matrix-card p {
   margin-top: revert;
   color: #243757;
@@ -85,6 +98,7 @@ body{
   font-size: 16px;
   line-height: 140%;
 }
+
 .matrix-icon {
   width: 48px;
   height: 48px;
@@ -94,6 +108,7 @@ body{
   background: rgba(214, 17, 30, 0.08);
   border-radius: 8px;
 }
+
 /* Why Us End */
 /* Founder Start */
 .founder-title p {
@@ -105,22 +120,26 @@ body{
   text-align: center;
   color: #d6111e;
 }
+
 .founder-title h3 {
   margin: auto;
   font-weight: 700;
   font-size: 40px;
-  line-height: 59px;
+  line-height: 140%;
   text-align: center;
   color: #0d0a25;
 }
+
 .founder-image {
   overflow: hidden;
   border-radius: 8px;
 }
+
 .founder-image img {
   width: 100%;
   object-fit: fill;
 }
+
 .founder-message {
   height: 100%;
   display: flex;
@@ -128,6 +147,7 @@ body{
   align-items: flex-start;
   justify-content: center;
 }
+
 .founder-message h4 {
   font-weight: 600;
   font-size: 32px;
@@ -136,20 +156,55 @@ body{
   align-items: center;
   color: #212123;
 }
+
+.founder-message {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ceo-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ceo-info h4 {
+  color: #0D0A25;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ceo-info p {
+  margin: auto;
+  color: #9C9BA1;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .founder-message p {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: normal;
   display: flex;
   align-items: center;
   color: #9c9ba1;
 }
+
 /* Founder End */
 /* Mission Vision Start */
-.mission-vision-title{
+.mission-vision-title {
   margin-bottom: 24px;
 }
-.mission-vision-title > p {
+
+.mission-vision-title>p {
   margin: auto;
   font-weight: 400;
   font-size: 16px;
@@ -157,6 +212,7 @@ body{
   letter-spacing: 0.16em;
   color: #d6111e !important;
 }
+
 .mission-vision-title h4 {
   margin: auto;
   font-weight: 700;
@@ -164,18 +220,22 @@ body{
   line-height: 140%;
   color: #171422;
 }
+
 .mission-vision-image {
   overflow: hidden;
   border-radius: 12px;
   height: 321px;
 }
+
 .mission-vision-content {
   margin-top: 24px;
 }
+
 .mission-vision-image img {
   width: 100%;
   object-fit: cover;
 }
+
 .mission-vision-content p {
   font-weight: 400;
   margin: auto;
@@ -183,6 +243,7 @@ body{
   line-height: 140%;
   color: #9c9ba1;
 }
+
 /* Mission Vision End */
 
 /* Values Start */
@@ -194,6 +255,7 @@ body{
   padding: 16px 0px;
   gap: 24px;
 }
+
 .value-icon {
   display: flex;
   flex-direction: row;
@@ -205,30 +267,39 @@ body{
   height: 64px;
   border-radius: 8px;
 }
+
 .satisfaction {
   background: rgba(197, 62, 206, 0.08);
 }
+
 .reliability {
   background: rgba(39, 119, 214, 0.08);
 }
+
 .security {
   background: rgba(233, 30, 52, 0.08);
 }
+
 .scalability {
   background: rgba(46, 196, 48, 0.08);
 }
+
 .responsiveness {
   background: rgba(255, 183, 3, 0.08);
 }
+
 .pricing {
   background: rgba(25, 167, 90, 0.08);
 }
+
 .transparency {
   background: rgba(0, 25, 255, 0.08);
 }
+
 .excellence {
   background: rgba(214, 17, 30, 0.08);
 }
+
 .value-card p {
   font-weight: 700;
   font-size: 20px;
@@ -238,11 +309,13 @@ body{
   text-align: center;
   color: #243757;
 }
+
 .values-title {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .values-title p {
   font-weight: 400;
   font-size: 16px;
@@ -251,6 +324,7 @@ body{
   color: #d6111e;
   text-align: center;
 }
+
 .values-title h3 {
   font-weight: 700;
   font-size: 32px;
@@ -260,11 +334,12 @@ body{
   max-width: 546px;
   width: 100%;
 }
+
 /* Values End */
 
 /*******************************************************  Media Queries Start  *******************************************************/
-@media screen and (max-width: 1400px) {
-}
+@media screen and (max-width: 1400px) {}
+
 @media screen and (max-width: 1200px) {
   .matrix-card {
     display: flex;
@@ -273,14 +348,59 @@ body{
     align-items: center;
     gap: 16px;
   }
+
   .mission-vision-image {
     height: 100%;
   }
+
   .mission-vision-image img {
     height: inherit;
   }
 }
+
 @media screen and (max-width: 991px) {
+  .hero-content {
+    margin-top: 0px;
+  }
+
+  .hero-details p {
+    text-align: center;
+  }
+
+  .hero-title h3 {
+    font-size: 24px;
+  }
+
+  .why-us-title h3 {
+    font-size: 24px;
+  }
+
+  .founder-title h3 {
+    font-size: 24px;
+  }
+
+  .founder-image {
+    margin-bottom: 24px;
+  }
+
+  .mission-vision-title {
+    text-align: center;
+  }
+
+  .mission-vision-title h4 {
+    font-size: 24px;
+  }
+
+  .vision-section {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
+  .values-title h3 {
+    font-size: 24px;
+  }
+
   .matrix-card {
     display: flex;
     flex-direction: row;
@@ -288,11 +408,17 @@ body{
     align-items: center;
     gap: 16px;
   }
+
+  .founder-message p {
+    font-size: 16px;
+  }
+
   .value-card-deck {
     display: flex;
     justify-content: center;
   }
 }
+
 @media screen and (max-width: 767px) {
   .matrix-card {
     display: flex;
@@ -304,32 +430,40 @@ body{
     border-radius: 8px;
     width: auto;
   }
+
   .matrix-card p {
     margin: auto;
     width: 100%t;
   }
+
   .col-xs-6 {
     width: 50%;
   }
 }
+
 @media screen and (max-width: 570px) {
   .matrix-info {
     margin-top: 40px;
   }
+
   .matrix-card p {
     margin: auto;
   }
+
   .value-card p {
     font-size: 14px;
   }
 }
+
 @media screen and (max-width: 400px) {
   .matrix-card p {
     font-size: 14px;
     text-align: center;
   }
-  .tab-content > img {
+
+  .tab-content>img {
     height: 220px;
   }
 }
+
 /*******************************************************  Media Queries End  *******************************************************/

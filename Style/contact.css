@@ -295,7 +295,7 @@ iframe {
     overflow: hidden;
   }
   .tab-content  img {
-    height: 220px;
+    height: 260px;
   }
   ul#tabs-nav {
     display: flex;

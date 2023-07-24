@@ -1,12 +1,47 @@
 .mt64 {
   padding-top: 64px;
 }
+
 .mb64 {
   padding-bottom: 64px;
 }
+
 .mt40 {
   padding-top: 40px;
 }
+
 .mb40 {
   padding-bottom: 40px;
 }
+
+/*******************************************************  Media Queries Start  *******************************************************/
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 991px) {
+  .mt64 {
+    padding-top: 40px;
+  }
+  
+  .mb64 {
+    padding-bottom: 40px;
+  }
+  
+  .mt40 {
+    padding-top: 24px;
+  }
+  
+  .mb40 {
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 570px) {}
+
+
+@media screen and (max-width: 400px) {}
+
+/*******************************************************  Media Queries End  *******************************************************/

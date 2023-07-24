@@ -560,7 +560,7 @@ ul#tabs-nav li.active a {
   }
 
   .tab-content>img {
-    height: 220px;
+    height: 260px;
     object-fit: cover;
   }
   .happy-client-button-group {
