@@ -9,12 +9,29 @@
 .active {
   font-weight: 700;
 }
-
+.collapsed{
+  font-size: 24px;
+}
+.accordion-body p{
+  font-size: 20px;
+}
+.accordion-body p a{
+  text-decoration: none;
+  color: #42464d;
+}
 .navbar-toggler {
   border: none;
 }
-.dropdown-menu:li {
-  text-align: left;
+.dropdown-menu {
+  transition: ease-out 0.3s;
+}
+.dropdown-menu>li {
+  margin-top:8px;
+  margin-bottom:8px;
+}
+.dropdown-menu a{
+  text-decoration: none;
+  color: #031430;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -62,7 +79,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
 
 /*******************************************************  Media Queries Start  *******************************************************/
 @media screen and (max-width: 991px) {

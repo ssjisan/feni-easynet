@@ -29,10 +29,12 @@ body {
 .hero-image {
   overflow: hidden;
   border-radius: 16px;
+  object-fit: cover;
 }
 
 .hero-image img {
   width: 100%;
+  object-fit: cover;
   height: 300px;
 }
 
