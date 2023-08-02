@@ -229,6 +229,7 @@ iframe {
 .accordion-button {
   background-color: transparent;
   font-weight: 600;
+  font-size: 16px;
   color: #23262f;
 }
 

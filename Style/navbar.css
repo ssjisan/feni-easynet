@@ -12,13 +12,7 @@
 .collapsed{
   font-size: 24px;
 }
-.accordion-body p{
-  font-size: 20px;
-}
-.accordion-body p a{
-  text-decoration: none;
-  color: #42464d;
-}
+
 .navbar-toggler {
   border: none;
 }
