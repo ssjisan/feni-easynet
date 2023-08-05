@@ -1,9 +1,10 @@
 .nav-item {
   margin-left: 24px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 140%;
   color: #031430;
+  transition: ease-out 0.3s;
 }
 
 .active {
