@@ -17,8 +17,15 @@
   align-items: center;
   letter-spacing: 0.08em;
   color: #ffffff;
+  transition: .5s ease-in-out;
+}
+.primary-filled:hover{
+  background: #ff0011;
+  color: #ffffff;
+  transition: .5s ease-in-out;
 }
 .secondary-filled {
+  transition: .5s ease-in-out;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -37,6 +44,13 @@
   align-items: center;
   letter-spacing: 0.08em;
   color: #d6111e;
+}.secondary-filled:hover{
+  transition: .5s ease-in-out;
+  background: #ffdbdb;
+  color: #d6111e;
+}
+a{
+  text-decoration: none !important;
 }
 /*******************************************************  Media Queries Start  *******************************************************/
 @media screen and (max-width: 1400px) {
