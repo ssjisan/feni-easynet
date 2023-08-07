@@ -68,9 +68,18 @@ a{
     width: 206px;
     height: 44px;
   }
+  a{
+    text-decoration: none !important;
+  }
 }
 @media screen and (max-width: 570px) {
+  a{
+    text-decoration: none !important;
+  }
 }
 @media screen and (max-width: 400px) {
+  a{
+    text-decoration: none !important;
+  }
 }
 /*******************************************************  Media Queries End  *******************************************************/

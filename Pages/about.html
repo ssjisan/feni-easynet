@@ -76,8 +76,18 @@
           <a class="nav-link" href="./packages.html">Packages</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">FTP/LIVE</a>
+          <a class="nav-link" id="show-hidden-menu">
+            FTP/LIVE
+          </a>
         </li>
+        <div class="box data hidden-menu" style="display: none;">
+          <a href="http://10.10.210.10/" target="_blank" class="ftp">
+              <p>FTP</p>
+          </a>
+          <a href="http://172.16.16.2/easylive" target="_blank" class="ftp">
+            <p>LIVE</p>
+        </a>
+        </div>
         <li class="nav-item">
           <a class="nav-link active" href="./about.html">About</a>
         </li>
@@ -468,6 +478,7 @@
   <!-- Jquery CDN End -->
   <!-- External Plugins Start -->
   <script src="../Plugins/coverage-area.js"></script>
+  <script src="../Plugins/nav-canvas.js"></script>
   <!-- External Plugins End -->
 </body>
 

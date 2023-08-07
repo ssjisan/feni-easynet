@@ -49,7 +49,7 @@
             <a class="nav-link">FTP/LIVE</a>
             <ul class="dropdown-menu">
               <li class="nav-item"><a href="http://10.10.210.10/" target="_blank">FTP Server</a></li>
-              <li class="nav-item"><a href="http://172.16.16.2/easylive">LIVE</a></li>
+              <li class="nav-item"><a href="http://172.16.16.2/easylive" target="_blank">LIVE</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -76,8 +76,18 @@
           <a class="nav-link" href="./Pages/packages.html">Packages</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">FTP/LIVE</a>
+          <a class="nav-link" id="show-hidden-menu">
+            FTP/LIVE
+          </a>
         </li>
+        <div class="box data hidden-menu" style="display: none;">
+          <a href="http://10.10.210.10/" target="_blank" class="ftp">
+              <p>FTP</p>
+          </a>
+          <a href="http://172.16.16.2/easylive" target="_blank" class="ftp">
+            <p>LIVE</p>
+        </a>
+        </div>
         <li class="nav-item">
           <a class="nav-link" href="./Pages/about.html">About</a>
         </li>
@@ -400,7 +410,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="Assets/Icons/footer-mono.svg" alt="logo" class="mono-logo"/>
+          <img src="Assets/Icons/footer-mono.svg" alt="logo" class="mono-logo" />
           <div class="contact-info">
             <div class="contact-points">
               <img src="Assets/Icons/marker.svg" />
@@ -479,13 +489,16 @@
         </div>
         <div class="left">
           <div class="social">
-            <a href="https://www.facebook.com/insighttechbd" target="_blank"><img src="Assets/Icons/facebook.svg" alt="facebook" /></a>
+            <a href="https://www.facebook.com/insighttechbd" target="_blank"><img src="Assets/Icons/facebook.svg"
+                alt="facebook" /></a>
           </div>
           <div class="social">
-            <a href="https://insighttechbd.com/" target="_blank"><img src="Assets/Icons/global.svg" alt="instagram" /></a>
+            <a href="https://insighttechbd.com/" target="_blank"><img src="Assets/Icons/global.svg"
+                alt="instagram" /></a>
           </div>
           <div class="social">
-            <a href="https://www.linkedin.com/company/insighttechbd" target="_blank"><img src="Assets/Icons/lnkdn.svg" alt="linkedin" /></a>
+            <a href="https://www.linkedin.com/company/insighttechbd" target="_blank"><img src="Assets/Icons/lnkdn.svg"
+                alt="linkedin" /></a>
           </div>
         </div>
       </div>
@@ -506,6 +519,7 @@
   <!-- Jquery CDN End -->
   <!-- External Plugins Start -->
   <script src="Plugins/coverage-area.js"></script>
+  <script src="Plugins/nav-canvas.js"></script>
   <script type="text/javascript">
     ScrollReveal().reveal(".hero", {
       delay: 150,
