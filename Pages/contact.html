@@ -46,11 +46,7 @@
             <a class="nav-link" href="./packages.html">Packages</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="">FTP/LIVE</a>
-            <ul class="dropdown-menu">
-              <li class="nav-item"><a href="http://10.10.210.10/" target="_blank">FTP Server</a></li>
-              <li class="nav-item"><a href="http://172.16.16.2/easylive">LIVE</a></li>
-            </ul>
+            <a class="nav-link" id="dropdown-hidden-menu" style="cursor: pointer;">FTP/LIVE</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./about.html">About</a>
@@ -95,6 +91,32 @@
           <a class="nav-link active" href="./contact.html">Contact</a>
         </li>
       </ul>
+    </div>
+  </div>
+  <div class="dropdown-box dropdown-menu-on" style="display: none;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="content-box">
+            <h4>Entertainment</h4>
+            <div class="dropdown-options">
+              <a class="ftp-live click" href="http://10.10.210.10/" target="_blank">
+                <h6>FTP</h6>
+                <p>Discover an extensive movie collection on our FTP server</p>
+              </a>
+              <a class="ftp-live click" href="http://172.16.16.2/easylive" target="_blank" >
+                <h6>LIVE</h6>
+                <p>Experience real-time entertainment through our live TV</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="image-container">
+            <img src="../Assets/Images/dropdown.png"/>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Navbar End -->
@@ -420,6 +442,7 @@
   <!-- External Plugins Start -->
   <script src="../Plugins/coverage-area.js"></script>
   <script src="../Plugins/nav-canvas.js"></script>
+  <script src="../Plugins/dropdown.js"></script>
   <!-- External Plugins End -->
 </body>
 
