@@ -29,7 +29,7 @@
 <body>
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container-fluid container">
+    <div class="container-fluid container nav-container">
       <a href="/"><img src="../Assets/fast-link.svg" alt="logo" height="40px" /></a>
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
         <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,34 @@
           <li class="nav-item">
             <a class="nav-link active" href="">Packages</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" id="dropdown-hidden-menu" style="cursor: pointer;">FTP/LIVE</a>
+          <li class="nav-item dropdown" id="dropdown-hidden-menu">
+            <a class="nav-link"  style="cursor: pointer;">FTP/LIVE</a>
+            <div class="dropdown-box dropdown-menu-on">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="content-box">
+                      <h4>Entertainment</h4>
+                      <div class="dropdown-options">
+                        <a class="ftp-live click" href="http://10.10.210.10/" target="_blank">
+                          <h6>FTP</h6>
+                          <p>Discover an extensive movie collection on our FTP server</p>
+                        </a>
+                        <a class="ftp-live click" href="http://172.16.16.2/easylive" target="_blank">
+                          <h6>LIVE</h6>
+                          <p>Experience real-time entertainment through our live TV</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="image-container">
+                      <img src="../Assets/Images/dropdown.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./about.html">About</a>
@@ -77,11 +103,11 @@
         </li>
         <div class="box data hidden-menu" style="display: none;">
           <a href="http://10.10.210.10/" target="_blank" class="ftp">
-              <p>FTP</p>
+            <p>FTP</p>
           </a>
           <a href="http://172.16.16.2/easylive" target="_blank" class="ftp">
             <p>LIVE</p>
-        </a>
+          </a>
         </div>
         <li class="nav-item">
           <a class="nav-link" href="./about.html">About</a>
@@ -90,32 +116,6 @@
           <a class="nav-link" href="./contact.html">Contact</a>
         </li>
       </ul>
-    </div>
-  </div>
-  <div class="dropdown-box dropdown-menu-on" style="display: none;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="content-box">
-            <h4>Entertainment</h4>
-            <div class="dropdown-options">
-              <a class="ftp-live click" href="http://10.10.210.10/" target="_blank">
-                <h6>FTP</h6>
-                <p>Discover an extensive movie collection on our FTP server</p>
-              </a>
-              <a class="ftp-live click" href="http://172.16.16.2/easylive" target="_blank" >
-                <h6>LIVE</h6>
-                <p>Experience real-time entertainment through our live TV</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="image-container">
-            <img src="../Assets/Images/dropdown.png"/>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <!-- Navbar End -->
@@ -153,7 +153,9 @@
       <div class="col-sm-6 col-md-6 col-lg-4 card-container">
         <div class="package-card">
           <p class="package-name">Velocity</p>
-          <div class="gauge-meter"><img src="../Assets/p1.svg" alt="package-one" /><p>10MB</p></div>
+          <div class="gauge-meter"><img src="../Assets/p1.svg" alt="package-one" />
+            <p>10MB</p>
+          </div>
           <div class="package-facility">
             <div class="facility">
               <img src="../Assets/Icons/check.svg" alt="pointer" />
@@ -188,7 +190,9 @@
       <div class="col-sm-6 col-md-6 col-lg-4 card-container">
         <div class="package-card">
           <p class="package-name">Quantum</p>
-          <div class="gauge-meter"><img src="../Assets/p2.svg" alt="package-two" /><p>20MB</p></div>
+          <div class="gauge-meter"><img src="../Assets/p2.svg" alt="package-two" />
+            <p>20MB</p>
+          </div>
           <div class="package-facility">
             <div class="facility">
               <img src="../Assets/Icons/check.svg" alt="pointer" />
@@ -223,7 +227,9 @@
       <div class="col-sm-6 col-md-6 col-lg-4 card-container">
         <div class="package-card">
           <p class="package-name">Stellar</p>
-          <div class="gauge-meter"><img src="../Assets/p3.svg" alt="package-three" /><p>50MB</p></div>
+          <div class="gauge-meter"><img src="../Assets/p3.svg" alt="package-three" />
+            <p>50MB</p>
+          </div>
           <div class="package-facility">
             <div class="facility">
               <img src="../Assets/Icons/check.svg" alt="pointer" />
@@ -263,7 +269,7 @@
   <div class="container" id="how-to-pay">
     <div class="row how-to-pay">
       <div class="col-sm-12 col-md-12 col-lg-6">
-        <div class="image-container">
+        <div class="payment-image-container">
           <img src="../Assets/Images/Home/packages/bkash.png" alt="bkash-payment" />
         </div>
       </div>
@@ -283,7 +289,8 @@
             <div class="point">
               <img src="../Assets/Icons/paymentnumber.svg" />
               <p>
-                In the <strong>"পেমেন্ট"</strong> option, you will find a merchant number field. Type <strong>"01909506050"</strong> and tap to proceed to the next step.
+                In the <strong>"পেমেন্ট"</strong> option, you will find a merchant number field. Type
+                <strong>"01909506050"</strong> and tap to proceed to the next step.
               </p>
             </div>
             <div class="point">
@@ -295,13 +302,15 @@
             <div class="point">
               <img src="../Assets/Icons/password.svg" />
               <p>
-                To proceed to the next step, kindly input your password in the designated field and tap <strong>"Next"</strong>.
+                To proceed to the next step, kindly input your password in the designated field and tap
+                <strong>"Next"</strong>.
               </p>
             </div>
             <div class="point">
               <img src="../Assets/Icons/done.svg" />
               <p>
-                After that, tap the <strong>"পেমেন্ট করতে এগিয়ে যান"</strong> button & hold the pay button for a few second. You're done!
+                After that, tap the <strong>"পেমেন্ট করতে এগিয়ে যান"</strong> button & hold the pay button for a few
+                second. You're done!
               </p>
             </div>
           </div>
@@ -395,13 +404,16 @@
         </div>
         <div class="left">
           <div class="social">
-            <a href="https://www.facebook.com/insighttechbd" target="_blank"><img src="../Assets/Icons/facebook.svg" alt="facebook" /></a>
+            <a href="https://www.facebook.com/insighttechbd" target="_blank"><img src="../Assets/Icons/facebook.svg"
+                alt="facebook" /></a>
           </div>
           <div class="social">
-            <a href="https://insighttechbd.com/" target="_blank"><img src="../Assets/Icons/global.svg" alt="instagram" /></a>
+            <a href="https://insighttechbd.com/" target="_blank"><img src="../Assets/Icons/global.svg"
+                alt="instagram" /></a>
           </div>
           <div class="social">
-            <a href="https://www.linkedin.com/company/insighttechbd" target="_blank"><img src="../Assets/Icons/lnkdn.svg" alt="linkedin" /></a>
+            <a href="https://www.linkedin.com/company/insighttechbd" target="_blank"><img
+                src="../Assets/Icons/lnkdn.svg" alt="linkedin" /></a>
           </div>
         </div>
       </div>
@@ -423,7 +435,7 @@
   <!-- External Plugins Start -->
   <script src="Plugins/coverage-area.js"></script>
   <script src="../Plugins/nav-canvas.js"></script>
-  <script src="../Plugins/dropdown.js"></script>
+  <!-- <script src="../Plugins/dropdown.js"></script> -->
   <!-- External Plugins End -->
 </body>
 

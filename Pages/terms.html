@@ -30,7 +30,7 @@
 <body>
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container-fluid container">
+    <div class="container-fluid container nav-container">
       <a href="/"><img src="../Assets/fast-link.svg" alt="logo" height="40px" /></a>
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
         <span class="navbar-toggler-icon"></span>
@@ -45,8 +45,34 @@
           <li class="nav-item">
             <a class="nav-link" href="./packages.html">Packages</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" id="dropdown-hidden-menu" style="cursor: pointer;">FTP/LIVE</a>
+          <li class="nav-item dropdown"  id="dropdown-hidden-menu">
+            <a class="nav-link" style="cursor: pointer;">FTP/LIVE</a>
+            <div class="dropdown-box dropdown-menu-on">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="content-box">
+                      <h4>Entertainment</h4>
+                      <div class="dropdown-options">
+                        <a class="ftp-live click" href="http://10.10.210.10/" target="_blank">
+                          <h6>FTP</h6>
+                          <p>Discover an extensive movie collection on our FTP server</p>
+                        </a>
+                        <a class="ftp-live click" href="http://172.16.16.2/easylive" target="_blank" >
+                          <h6>LIVE</h6>
+                          <p>Experience real-time entertainment through our live TV</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="image-container">
+                      <img src="../Assets/Images/dropdown.png"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./about.html">About</a>
@@ -91,32 +117,6 @@
           <a class="nav-link" href="./contact.html">Contact</a>
         </li>
       </ul>
-    </div>
-  </div>
-  <div class="dropdown-box dropdown-menu-on" style="display: none;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="content-box">
-            <h4>Entertainment</h4>
-            <div class="dropdown-options">
-              <a class="ftp-live click" href="http://10.10.210.10/" target="_blank">
-                <h6>FTP</h6>
-                <p>Discover an extensive movie collection on our FTP server</p>
-              </a>
-              <a class="ftp-live click" href="http://172.16.16.2/easylive" target="_blank" >
-                <h6>LIVE</h6>
-                <p>Experience real-time entertainment through our live TV</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="image-container">
-            <img src="../Assets/Images/dropdown.png"/>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <!-- Navbar End -->
@@ -309,7 +309,7 @@
   <!-- External Plugins Start -->
   <script src="../Plugins/coverage-area.js"></script>
   <script src="../Plugins/nav-canvas.js"></script>
-  <script src="../Plugins/dropdown.js"></script>
+  <!-- <script src="../Plugins/dropdown.js"></script> -->
   <!-- External Plugins End -->
 </body>
 
